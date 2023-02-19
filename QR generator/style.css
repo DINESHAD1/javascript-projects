@@ -1,0 +1,21 @@
+.mainstyle{
+    height: 90vh;
+    width: 100%;
+}
+.customcssfdfh{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.styleforqr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+body{
+    background: #000934;
+    color: aqua;
+}

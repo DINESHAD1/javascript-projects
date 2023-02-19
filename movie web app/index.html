@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">All My projects</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active shadow p-3 mx-1 bg-white rounded" aria-current="page" href="/movie web app/index.html">MovieDB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/QR generator/index.html">QR Code Generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Random Joke Generator/index.html">Random joke generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Quote Generator/index.html">Quote Generator</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="maindiv">
+            <div class="child_div1">
+                <div class="search123">
+                    <input type="text" name="text" id="moviename" class="searchstyle">
+                    <span  class="btnsearch" onclick="btnsearch()">search</span>
+                </div>
+                <img  id="movieposter" alt="poster">
+            </div>
+            <div class="child_div2">
+
+                <p>Title : <span id="Title">Title</span></p>
+                <p>Year : <span id="Year">Year</span></p>
+                <p>Rated : <span id="Rated">Rated</span></p>
+                <p>Released : <span id="Released">Released</span></p>
+                <p>Runtime : <span id="Runtime">Runtime</span></p>
+                <p>Genre : <span id="Genre">Genre</span></p>
+                <p>Director : <span id="Director">Director</span></p>
+                <p>Writer : <span id="Writer">Writer</span></p>
+                <p>Actors : <span id="Actors">Actors</span></p>
+                <p>Country : <span id="Country">Country</span></p>
+                <p>Language : <span id="Language">Language</span></p>
+                <p>Awards : <span id="Awards">Awards</span></p>
+                <!-- <div id="Readmore" onclick="Readmore()"><span class="commomclass">Readmore</span></div>
+                <div id="Readless" onclick="Readless()"><span>Readless</span></div>
+                <p id="Storyline">Storyline : <span id="Storyline">Storyline</span></p> -->
+            </div>
+        </div>
+        <!-- <div class="search">
+            <input type="text" name="text" id="moviename" class="searchstyle">
+            <button class="btnsearch searchstyle" onclick="btnsearch()">search</button>
+        </div> -->
+        <div class="results">
+
+
+            <div class="posterdiv">
+                <div class="innerposterdiv">
+                    <!-- <img  id="movieposter" alt="poster"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">All My projects</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active shadow p-3 mx-1 bg-white rounded" aria-current="page" href="/movie web app/index.html">MovieDB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/QR generator/index.html">QR Code Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Random Joke Generator/index.html">Random joke generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Quote Generator/index.html">Quote Generator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    <div class="container text-center">
+        <div class="row align-items-start mainstyle">
+          <div class="h-100 col .bg-primary">
+           <div class="inputurl h-50 customcssfdfh">
+            <div class="input-group mb-3">
+                <input id="url" type="url" class="form-control" placeholder="Enter URL " aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-outline-secondary" onclick="generateurl()" type="button">Generate QR</button>
+                </div>
+              </div>
+           </div>
+           <div class="textarea h-50">
+            <button type="button" class="btn btn-outline-secondary w-100" onclick="textareafun()">Generate QR</button>
+            <div class="form-floating">
+                <textarea id="textarea" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">textarea</label>
+              </div>
+           </div>
+          </div>
+          <div class="h-100 col .bg-danger-subtle">
+            <div class="h-50 styleforqr">
+              <span>QR CODE FOR URL</span>
+              <img class="m-1 shadow p-1 mb-5 bg-white rounded" id="qrcodeforurl" alt="qrcodeforurl">
+            </div>
+            <div class="h-50 styleforqr">
+              <span>QR CODE FOR text and more</span>
+              <img class="m-1 shadow p-1 mb-5 bg-white rounded" id="qrcodefortextmore" alt="qrcodefortextmore">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

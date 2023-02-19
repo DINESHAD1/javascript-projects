@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.container{
+    background-color: black;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    box-shadow: 12px 10px 17px 20px #ffffff12;
+    padding: 1rem;
+
+}
+
+.width{
+    width: 100%;
+}
+
+.jokegen{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.jokegenerator{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+
+.joke_text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rebeccapurple;
+    /* padding: 5px; */
+    border-radius: 10px;
+}
+
+.emoji{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#emoji_logo{
+    font-size: 4rem;
+}
+.joke{
+    height: auto;
+}
+
+.textdiv{
+    color: rgb(131, 54, 54);
+}
+
+.space{
+    width: 100%;
+    height: 1rem;
+}
+
+
+.containerjock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.containerchild{
+    margin: 20px;
+    padding: 1rem;
+    width: 25rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random joke generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="rjg.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">All My projects</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active shadow p-3 mx-1 bg-white rounded" aria-current="page" href="/movie web app/index.html">MovieDB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/QR generator/index.html">QR Code Generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Random Joke Generator/index.html">Random joke generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow p-3 mx-1 bg-white rounded" href="/Quote Generator/index.html">Quote Generator</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="containerjock">
+        <div class="shadow-lg p-3 mb-5 bg-info-subtle rounded containerchild">
+          <div class="emoji width">
+            <span id="emoji_logo" >&#128513;</span>
+            </div>
+          <div class="joke width">
+            <div class="textquestion">
+                <div><span class="joke_text" id="question"></span></div>
+            </div>
+            <div class="space"></div>
+            <div class="textanswer">
+                <div><span class="joke_text" id="answer"></span></div>
+            </div>
+          </div>
+          <div class="jokegen width">
+            <button class="btn btn-outline-info jokegenerator" id="jokegenerator" onclick="jokegenerator()">Get joke</button>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="rjg.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+navbarbgcolor{
+    background: rgb(2,0,36) !important;
+    background: linear-gradient(86deg, rgba(2,0,36,1) 0%, rgba(3,12,76,1) 45%, rgba(0,212,255,1) 100%) !important;
+}
+
+body{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.contentdiv{
+    height: 85vh;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+.contentdiv > div{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.moviedbimage{
+    width: 100%;
+    height: 78%;
+}
+.moviedbimage > img{
+    width: 100%;
+    height: 100%;
+}
+.buttons{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration:none;
+}
